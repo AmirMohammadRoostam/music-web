@@ -329,7 +329,7 @@ function createPodcastCard(podcast) {
   card.innerHTML = `
     <div class="podcast-image">
       <img src="${podcast.image}" alt="${podcast.title}" loading="lazy">
-      <div class="podcast-category">${podcast.category}</div>
+
       <button class="play-button" data-episode="${podcast.id - 1}">▶️</button>
     </div>
     <div class="podcast-content">
